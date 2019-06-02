@@ -40,6 +40,7 @@ class Human
         @happiness += 10
     end
 
+
     def wash_dog(dog)
         dog.owner == self ? @happiness -= 3 : @happiness -= 10
         dog.get_bath(self)
